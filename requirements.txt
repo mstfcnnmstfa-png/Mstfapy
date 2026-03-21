@@ -1,6 +1,6 @@
 # Developer: Smith - Mustafa Hussein
 
-Flask==2.3.4
+flask
 gunicorn==20.1.0
 pyrogram==2.0.106
 tgcrypto==1.8.3

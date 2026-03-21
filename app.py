@@ -25,28 +25,19 @@ from pyrogram.errors import (
     BotMethodInvalid
 )
 import os
-from asyncio import create_task, sleep, get_event_loop
+from asyncio import create_task, sleep
 from datetime import datetime, timedelta
 from pytz import timezone
 from typing import Union
 import json
 
 # ------------------ إعدادات البوت ------------------
-import asyncio  # تأكد من وجود هذا السطر في أعلى الملف
-
-# ... باقي الاستيرادات الأخرى ...
-
 app = Client(
     "autoPost",
     api_id="29510141",
     api_hash="14c074a5aed49dc7752a9f8d54cf4ad4",
     bot_token="8666985104:AAEZ_NgKD3KaaYyt1WVM4ZgQ8CMZwmZGEqE"
 )
-
-# تعديل: إنشاء event loop جديد بدلاً من get_event_loop()
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
-
 user_states = {}
 owner = 8226014028  # ايديك
 

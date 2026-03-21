@@ -1,3 +1,6 @@
+# Developer: Smith - Mustafa Hussein
+
 pyrogram==2.0.106
-pytz
-git+https://github.com/AbuBakrReda/pyro-listener.git
+pytz==2024.1
+pyTelegramBotAPI==4.14.0
+requests==2.31.0

@@ -36,7 +36,7 @@ app = Client(
     "autoPost",
     api_id="29510141",
     api_hash="14c074a5aed49dc7752a9f8d54cf4ad4",
-    bot_token=os.getenv('BOT_TOKEN')
+    bot_token="8666985104:AAEZ_NgKD3KaaYyt1WVM4ZgQ8CMZwmZGEqE"
 )
 loop = get_event_loop()
 user_states = {}
